@@ -1,0 +1,28 @@
+/* Loader and skeleton component styles */
+.page-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  width: 100%;
+}
+
+.table-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.table-skeleton-row {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.table-skeleton-cell {
+  flex: 1;
+}
